@@ -6,7 +6,9 @@ import "./styles.css";
 const Filters = () => {
   const {
     productDispatch,
-    productState: { byStock, byFastDelivery, sort, byRating },
+    productState: { 
+      // byStock,
+       byFastDelivery, sort, byRating },
   } = CartState();
 
   // make state for rating
@@ -48,7 +50,7 @@ const Filters = () => {
           checked={sort === "highToLow" ? true : false}
         />
       </span>
-      <span>
+      {/* <span>
         <Form.Check
           inline
           label="Include Out of Stock"
@@ -62,7 +64,7 @@ const Filters = () => {
           }
           checked={byStock}
         />
-      </span>
+      </span> */}
       <span>
         <Form.Check
           inline
