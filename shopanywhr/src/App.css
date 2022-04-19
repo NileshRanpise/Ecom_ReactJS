@@ -1,28 +1,17 @@
-/* .add_btn{
-    text-align: right;
+a {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
-.container{
-    overflow: auto;
+/* Scroll bar */
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-.left_view h3{
-    font-size: 21px;
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
-
-.left_view p{
-    font-weight: 600;
-}
-
-.left_view span{
-    font-weight: 400;
-}
-
-.right_view p{
-    font-weight: 600;
-}
-
-
-.right_view span{
-    font-weight: 400;
-} */

@@ -1,46 +1,54 @@
-import React from "react";
-// import { Container, Row, Col } from "react-bootstrap";
-import Cards from "./Cards";
-import list from "../Data";
-import "../Styles/Card.css";
+import { CartState } from "../context/Context";
+import Filters from "./Filters";
+import SingleProduct from "./SingleProduct";
 
-const Home = ({ handleClick }) => {
+const Home = () => {
+  const {
+    state: { products },
+    productState: { sort, byStock, byFastDelivery, byRating, searchQuery },
+  } = CartState();
 
-  // const [cart,setCart] = useState([]);
+  const transformProducts = () => {
+    let sortedProducts = products;
 
-  const handleCartClick = (item) =>{
-      console.log(item);
-  }
+    if (sort) {
+      sortedProducts = sortedProducts.sort((a, b) =>
+        sort === "lowToHigh" ? a.price - b.price : b.price - a.price
+      );
+    }
+
+    if (!byStock) {
+      sortedProducts = sortedProducts.filter((prod) => prod.inStock);
+    }
+
+    if (byFastDelivery) {
+      sortedProducts = sortedProducts.filter((prod) => prod.fastDelivery);
+    }
+
+    if (byRating) {
+      sortedProducts = sortedProducts.filter(
+        (prod) => prod.ratings >= byRating
+      );
+    }
+
+    if (searchQuery) {
+      sortedProducts = sortedProducts.filter((prod) =>
+        prod.name.toLowerCase().includes(searchQuery)
+      );
+    }
+
+    return sortedProducts;
+  };
 
   return (
-    <>
-      {/* <Container className="item-container">
-        <Row>
-       
-          <Col >
-            {list.map((item) => (
-              <Cards key={item.id} item={item} handleClick={handleClick} />
-            ))}
-          </Col>
-       
-        </Row>
-      </Container> */}
-
-      <div>
-      <br></br>
-      <h1 className='maintitle'>Featured Products</h1>
-      <hr></hr>
-      <div className='item-container'>
-        {list.map((item) => (
-          <div className='card'>
-          <Cards key={item.id} item={item} handleClick={handleCartClick} />
-          </div>
+    <div className="home">
+      <Filters />
+      <div className="productContainer">
+        {transformProducts().map((prod) => (
+          <SingleProduct prod={prod} key={prod.id} />
         ))}
       </div>
     </div>
-    <hr></hr>
-    <br></br>
-    </>
   );
 };
 

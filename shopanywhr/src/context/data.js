@@ -4,7 +4,9 @@ const list = [
       title: "Mobiles",
       "name": "Mi 11 Ultra 5G",
       "price": "₹ 69,999",
-      "image": "https://i02.appmifile.com/867_operator_in/23/04/2021/3849c44ac78d65621750a114811711f9.png?width=140&height=140"
+      "image": "https://i02.appmifile.com/867_operator_in/23/04/2021/3849c44ac78d65621750a114811711f9.png?width=140&height=140",
+      "rating":3,
+      "fastDelivery":true
     },
     {
       id: 2,
