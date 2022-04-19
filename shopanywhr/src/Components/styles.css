@@ -1,5 +1,26 @@
 /* header styles */
+.navstyle{
+  font-weight:bold;
+  font-size: 25px; 
+  font-family:Cursive; 
+  color: rgb(250, 245, 0);
+  /* background-color: #5a0032; */
+}
 
+#filterstyle{
+  background-color: #380220;
+}
+
+.navbarstyle{
+  background-color: #3a0321;
+}
+.navitem{
+  font-size: 17px; 
+  /* font-family:Cursive;  */
+  font-weight: bold;
+  color: white;
+ 
+}
 .header {
   display: block;
   text-align: center;

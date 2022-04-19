@@ -1,6 +1,7 @@
 import { Button, Form } from "react-bootstrap";
 import { CartState } from "../context/Context";
 import Rating from "./Rating";
+import "./styles.css";
 
 const Filters = () => {
   const {
@@ -11,7 +12,9 @@ const Filters = () => {
   // make state for rating
 
   return (
-    <div className="filters">
+    <>   
+      
+     <div className="filters" id="filterstyle">
       <span className="title">Filter Products</span>
       <span>
         <Form.Check
@@ -89,16 +92,19 @@ const Filters = () => {
         />
       </span>
       <Button
-        variant="light"
+        variant="warning"
         onClick={() =>
           productDispatch({
             type: "CLEAR_FILTERS",
           })
         }
       >
-        Clear Filters
+        <h5> Clear Filters </h5>
       </Button>
     </div>
+  
+    </>
+
   );
 };
 

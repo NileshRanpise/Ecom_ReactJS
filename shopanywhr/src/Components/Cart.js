@@ -3,6 +3,7 @@ import { Button, Col, Form, Image, ListGroup, Row } from "react-bootstrap";
 import { AiFillDelete } from "react-icons/ai";
 import { CartState } from "../context/Context";
 import Rating from "./Rating";
+import "./styles.css";
 
 const Cart = () => {
   const {
@@ -72,11 +73,11 @@ const Cart = () => {
           ))}
         </ListGroup>
       </div>
-      <div className="filters summary">
+      <div id="filterstyle" className="filters summary">
         <span className="title">Subtotal ({cart.length}) items</span>
-        <span style={{ fontWeight: 700, fontSize: 20 }}>Total: ₹ {total}</span>
-        <Button type="button" disabled={cart.length === 0}>
-          Proceed to Checkout
+        <span style={{ fontWeight: 500, fontSize: 20 }}>Total: ₹ {total}</span>
+        <Button variant="warning" type="button" disabled={cart.length === 0}>
+        <h5> Proceed to Checkout </h5>
         </Button>
       </div>
     </div>

@@ -10,7 +10,7 @@ const SingleProduct = ({ prod }) => {
 
   return (
     <div className="products">
-      <Card>
+      <Card style={{ width: '17rem' }} >
         <Card.Img variant="top" src={prod.image} alt={prod.name} />
         <Card.Body>
           <Card.Title>{prod.name}</Card.Title>
@@ -37,6 +37,7 @@ const SingleProduct = ({ prod }) => {
             </Button>
           ) : (
             <Button
+            variant="success"
               onClick={() =>
                 dispatch({
                   type: "ADD_TO_CART",
