@@ -31,7 +31,7 @@ const Cart = () => {
                 <Col md={2}>
                   <span>{prod.name}</span>
                 </Col>
-                <Col md={2}>₹ {prod.price}</Col>
+                <Col md={2}>₹ {prod.price} /-</Col>
                 <Col md={2}>
                   <Rating rating={prod.ratings} />
                 </Col>
@@ -75,7 +75,7 @@ const Cart = () => {
       </div>
       <div id="filterstyle" className="filters summary">
         <span className="title">Subtotal ({cart.length}) items</span>
-        <span style={{ fontWeight: 500, fontSize: 20 }}>Total: ₹ {total}</span>
+        <span style={{ fontWeight: 500, fontSize: 20 }}>Total: ₹ {total} /-</span>
         <Button variant="warning" type="button" disabled={cart.length === 0}>
         <h5> Proceed to Checkout </h5>
         </Button>

@@ -11,7 +11,7 @@ const About = () => {
       <Card className="text-center">
         <Card.Header> <h1>  About Us </h1> </Card.Header>
         <Card.Body>
-          <Card.Title>Special title treatment</Card.Title>
+          {/* <Card.Title>Special title treatment</Card.Title> */}
           <Card.Text>
                 <h2> Nilesh Arjun Ranpise </h2>
                 <Card.Title>Full-stack Developer </Card.Title>

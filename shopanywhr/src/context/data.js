@@ -6,131 +6,135 @@ const list = [
       "price":  "69999",
       "image": "https://i02.appmifile.com/867_operator_in/23/04/2021/3849c44ac78d65621750a114811711f9.png?width=140&height=140",
       "rating":3,
-      "fastDelivery":true
+      "fastDelivery":false
     },
     {
       id: 2,
-      title: "108 Panchatantra Stories",
-      "name": "Mi 11X Pro 5G",
-      "price": "39999",
-      "image": "https://i02.appmifile.com/52_operator_in/04/03/2021/7db1136dfdc2a1e9fc639b56bc19f17f.png?width=140&height=140",
-      "rating":3,
+      title: "Watch Revolve",
+      "name": "Watch Revolve",
+      "price":  "9999",
+      "image": "https://i02.appmifile.com/669_operator_in/29/09/2020/492027bef78ed4c69cfd68c2d299d49f.png?width=140&height=140",
+      "rating":4,
       "fastDelivery":true
     
     },
 
     {
       id: 3,
-      title: "Amazing Questions & Answers Science",
+      title: "Mobiles",
       "name": "Mi 10T Pro",
-      "price": "36999",
+      "price":  "69999",
       "image": "https://i02.appmifile.com/406_operator_in/15/10/2020/4481bf3c3bb2ce53d9f4ac6ce1d7e312.png?width=140&height=140",
-      "rating":3,
-      "fastDelivery":true
+      "rating":5,
+      "fastDelivery":false
     },
     {
       id: 4,
-      title: "My First Book of Pencil Control",
-      "name": "Mi 10T",
-      "price": "32999",
-      "rating":3,
-      "fastDelivery":true,
-      "image": "https://i02.appmifile.com/938_operator_in/15/10/2020/4e6b056c8984ad7031873ae9b5f564a5.png?width=140&height=140",
+      title: "Mobiles",
+      "name": "Redmi Note 10 Pro Max",
+      "price":  "18999",
+      "image": "https://i02.appmifile.com/45_operator_in/04/03/2021/890c4652df767017f4857c5e90647d2b.png?width=140&height=140",
+      "rating":2,
+      "fastDelivery":true
     },
     {
       id: 5,
-      title: "My First 1000 Words",
-      "name": "Mi Notebook 14(IC)",
-      "rating":3,
-      "fastDelivery":true,
-      "price": "43999",
-      "image": "https://i02.appmifile.com/763_operator_in/19/01/2021/4be770942f3352ad2e7e3a94e5d75a43.jpg?width=140&height=140"
+      title: "Mobiles",
+      "name": "Redmi Note 10 Pro",
+      "price":  "15999",
+      "image": "https://i02.appmifile.com/52_operator_in/04/03/2021/7db1136dfdc2a1e9fc639b56bc19f17f.png?width=140&height=140",
+      "rating":5,
+      "fastDelivery":false
     },
     {
       id: 6,
-      title: "Laptops",
-      "name": "Mi Notebook 14",
-      "rating":3,
-      "fastDelivery":true,
-      "price": "41999",
-      "image": "https://i01.appmifile.com/webfile/globalimg/in/cms/9534EF41-E7D9-025C-A287-B4BAFCA4A0F9.jpg?width=140&height=140"
+      title: "TV",
+      "name": "Mi QLED TV 189.34cm (75)",
+      "price":  "124999",
+      "image": "https://i02.appmifile.com/620_operator_in/23/04/2021/3c98ae4c034583122a67669c840f249e.jpg?width=140&height=140",
+      "rating":1,
+      "fastDelivery":true
     },
     {
       id: 7,
-      title: "Pre-School Activities Pack ",
-      "name": "Mi NoteBook 14 e-Learning Edition",
-      "rating":3,
-      "fastDelivery":true,
-      "price": "38999",
-      "image": "https://i02.appmifile.com/234_operator_in/05/11/2020/5b641713340b4a542b75cf737ed2cd80.png?width=140&height=140"
+      title: "TV",
+      "name": "Redmi Smart TV X Series",
+      "price":  "33999",
+      "image": "https://i02.appmifile.com/126_operator_in/24/03/2021/8864007fcaa4d9815f02b827c29f100f.png?width=140&height=140",
+      "rating":5,
+      "fastDelivery":false
     },
     {
       id: 8,
       title: "Early Learning Library Pack 1",
-      "name": "Mi Webcam HD",
-      "rating":3,
-      "fastDelivery":true,
-      "price": "1099",
-      "image": "https://i02.appmifile.com/504_operator_in/05/01/2021/d465ac7bca989e33487b4b4f2447c3ea.png?width=140&height=140"
+      "name": "Mi 11 Ultra 5G",
+      "price":  "69999",
+      "image": "https://i02.appmifile.com/867_operator_in/23/04/2021/3849c44ac78d65621750a114811711f9.png?width=140&height=140",
+      "rating":5,
+      "fastDelivery":true
     },
     {
       id: 9,
-      title: "Others",
-      "name": "Mi Watch Revolve",
+      title: "Laptop",
+    "name": "Mi Notebook 14",
+      "price":  "41999",
+      "image": "https://i01.appmifile.com/webfile/globalimg/in/cms/9534EF41-E7D9-025C-A287-B4BAFCA4A0F9.jpg?width=140&height=140",
       "rating":3,
-      "fastDelivery":true,
-      "price": "9999",
-      "image": "https://i02.appmifile.com/669_operator_in/29/09/2020/492027bef78ed4c69cfd68c2d299d49f.png?width=140&height=140"
+      "fastDelivery":true
     },
     {
       id: 10,
-      title: "Brain Activity Book for Kids",
+      title: "Redmi Watch GPS",
       "name": "Redmi Watch GPS",
+      "price":  "4999",
+      "image": "https://i02.appmifile.com/594_operator_in/13/05/2021/7a6d0c6dfdc36b8e65a210c6e40e5171.jpg?width=140&height=140",
       "rating":3,
-      "fastDelivery":true,
-      "price": "3999",
-      "image": "https://i02.appmifile.com/594_operator_in/13/05/2021/7a6d0c6dfdc36b8e65a210c6e40e5171.jpg?width=140&height=140"
+      "fastDelivery":true
     },
     {
       id: 11,
-      "name": "Mi Beard Trimmer 1C",
+      title: "Air Purifier 3",
+      "name": "Air Purifier 3",
+      "price":  "10999",
+      "image": "https://i01.appmifile.com/webfile/globalimg/in/cms/D0577E6F-7952-56FD-86EB-7A3EF9FE33C1.jpg?width=140&height=140",
       "rating":3,
-      "fastDelivery":true,
-      "price": "999",
-      "image": "https://i02.appmifile.com/979_operator_in/06/08/2020/855d6e62a97cb56339126c68de3918e9.png?width=140&height=140"
+      "fastDelivery":true
     },
     {
       id: 12,
-      title: "Grandma's Bag of Stories",
+      title: "Speaker",
+      "name": "Mi Outdoor Bluetooth Speaker (5W)",
+      "price":  "1399",
+      "image": "https://i02.appmifile.com/867_operator_in/23/04/2021/3849c44ac78d65621750a114811711f9.png?width=140&height=140",
       "rating":3,
-      "fastDelivery":true,
-      "name": "Mi Athleisure Shoes",
-      "price": "1699",
-      "image": "https://i02.appmifile.com/205_operator_in/29/09/2020/e989b9be493148ba6461e8b43d4df81d.png?width=140&height=140"
+      "fastDelivery":true
     },
     {
       id: 13,
-      "name": "Mi Beard Trimmer 1C",
+      title: "Speaker",
+      "name": "Redmi Earphones",
+      "price":  "399",
+      "image": "https://i02.appmifile.com/984_operator_in/02/09/2020/35780ad0fbbd75f9ef2d33dc1f75537b.png?width=140&height=140",
       "rating":3,
-      "fastDelivery":true,
-      "price": "999",
-      "image": "https://i02.appmifile.com/979_operator_in/06/08/2020/855d6e62a97cb56339126c68de3918e9.png?width=140&height=140"
+      "fastDelivery":false
     },
     {
       id: 14,
-      "name": "Mi Beard Trimmer 1C",
-      "rating":3,
-      "fastDelivery":true,
-      "price": "999",
-      "image": "https://i02.appmifile.com/979_operator_in/06/08/2020/855d6e62a97cb56339126c68de3918e9.png?width=140&height=140"
+      title: "Power Banks",
+      "name": "Power Banks",
+      "price":  "799",
+      "image": "https://i01.appmifile.com/webfile/globalimg/in/cms/B0272C02-9066-1A1B-B63C-DE2C2B169C34.jpg?width=140&height=140",
+      "rating":4,
+      "fastDelivery":true
     },
     {
       id: 15,
-      "name": "Mi Beard Trimmer 1C",
-      "rating":3,
-      "fastDelivery":true,
-      "price": "999",
-      "image": "https://i02.appmifile.com/979_operator_in/06/08/2020/855d6e62a97cb56339126c68de3918e9.png?width=140&height=140"
+      title: "Mi Router 4C",
+      "name": "Mi Router 4C",
+      "price":  "999",
+      "image": "https://i01.appmifile.com/webfile/globalimg/in/cms/CE0F6208-9AAC-73CB-2F59-130D2E10F999.jpg?width=140&height=140",
+      "rating":4,
+      "fastDelivery":true
     },
   ];
   
